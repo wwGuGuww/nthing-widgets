@@ -6,6 +6,10 @@
 
 > Fan-made and unofficial. Not affiliated with, endorsed by, or sponsored by Nothing Technology Limited. "Nothing" is a trademark of its owner; it is used here only to describe the visual style that inspired this project.
 
+### Running on a real desktop
+
+![Live desktop capture](assets/live-desktop.png)
+
 ## What's inside
 
 | Widget | What it does | Animation |
@@ -13,7 +17,7 @@
 | **Clock** | 24 h clock in dot-matrix digits on a dotted ring | A red seconds dot with a fading trail travels around the ring |
 | **Battery** | Real battery level on a dotted ring | Ring fills on load, bolt blinks while charging |
 | **Weather** | Temperature + conditions from [wttr.in](https://wttr.in) (no API key) | Slowly rotating sun |
-| **Volume** | Real system volume dial. `+` / `-` change it by 2 %, click the dial to mute | Dots ease to the new level |
+| **Volume** | Real system volume dial (read and set by a small PowerShell script, `@Resources/Volume.ps1`). `+` / `-` change it by 2 %, click the dial to mute | Dots ease to the new level |
 | **Date** | Day, month, weekday and a week strip | Today's dot pulses |
 | **Notes** | Shows `Notes.txt`; click to edit | Blinking dot |
 | **Claude** | One-click launcher for claude.ai | Rotating dot star |
